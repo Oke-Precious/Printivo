@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: solid 1px red;
+    font-family: sans-serif;
+    /* outline: solid 1px red; */
 }
 header{
     background-color: #F7F6F4 !important;
@@ -18,9 +19,13 @@ header li a{
 .whatsappIcon{
     width: 30px;
 }
-button{
+header button{
     font-size: 14px;
 }
+.navbar{
+    background-color: #ECE8D9;
+}
+
 .navCon{
     display: flex;
     justify-content: space-between !important;
@@ -32,4 +37,40 @@ nav li a{
 .cart{
     width: 30px;
     height: 30px;
+    margin-top: -2%;
+}
+.sec1{
+    background-color: #ECE8D9;
+}
+.sec1 h1{
+    font-family: "DM Serif Display", serif;
+    color: #384A62;
+    font-size: 67.2px;
+}
+.sec1 h3{
+    color: #384A62;
+    font-weight: 600;
+    font-size: 24px;
+}
+@media (max-width:768px) {
+    header .costCal{
+        display: none !important;
+    }
+    header li{
+    font-size: 12px;
+    }
+    header button{
+    font-size: 12px;
+    }
+    header .needHelp{
+        width: 100%;
+        justify-content: space-between !important;
+    }
+    .needHelp li span{
+        display: none;
+    }
+    .needHelp li{
+        flex-direction: column;
+
+    }
 }
