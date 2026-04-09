@@ -48,7 +48,7 @@ nav p{
     background-repeat: no-repeat;
     background-size: 30%;
     background-position:bottom right;
-    padding:100px 50px !important;
+    padding:100px 70px !important;
 }
 .sec1 h1{
     font-family: "DM Serif Display", serif;
@@ -79,9 +79,30 @@ nav p{
 .sec1 .menuBtn{
     display: none;
 }
-
-
-
+.sec2{
+    padding: 50px 70px !important;
+}
+.sec2 h2{
+    color: #384A62;
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+}
+.myAngle{
+    transition: .3s ease;
+}
+.cardBtn:hover .myAngle{
+    transform: translateX(10px);
+}
+.productImg{
+    height: 200px !important;
+    transition: .3s ease;
+}
+.productImg:hover{
+    transform: scale(1.1);
+}
+/* .cardConatiner{
+    width: ;
+} */
 
 
 @media (max-width:768px) {
