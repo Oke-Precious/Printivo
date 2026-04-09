@@ -60,6 +60,9 @@ nav p{
     font-weight: 600;
     font-size: 24px;
 }
+.sec1Item{
+    width: 50%;
+}
 .inputCon{
     display: flex;
     background-color: white;
@@ -72,6 +75,9 @@ nav p{
 }
 .inputCon input::placeholder{
     color: #B0B8C2;
+}
+.sec1 .menuBtn{
+    display: none;
 }
 
 
@@ -107,6 +113,14 @@ nav p{
     }
     .sec1{
         background-image: none;
+        padding: 50px 30px !important;
     }
+    .sec1Item{
+        width: 100%;
+    }
+    .sec1 .menuBtn{
+    display: block;
+    }
+
     
 }
