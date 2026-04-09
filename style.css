@@ -90,6 +90,9 @@ nav p{
 .myAngle{
     transition: .3s ease;
 }
+.cardBtn{
+    font-size: 14px !important;
+}
 .cardBtn:hover .myAngle{
     transform: translateX(10px);
 }
@@ -100,6 +103,10 @@ nav p{
 .productImg:hover{
     transform: scale(1.1);
 }
+.popularProduct {
+    margin-bottom: 100px !important;
+}
+
 /* .cardConatiner{
     width: ;
 } */
