@@ -26,13 +26,16 @@ header button{
     background-color: #ECE8D9;
 }
 
-.navCon{
-    display: flex;
-    justify-content: space-between !important;
-}
 nav li a{
     color: black;
     text-decoration: none;
+}
+nav li{
+    font-size: 14px;
+    font-weight: 500;
+}
+nav p{
+    font-size: 14px !important;
 }
 .cart{
     width: 30px;
@@ -41,6 +44,11 @@ nav li a{
 }
 .sec1{
     background-color: #ECE8D9;
+    background-image: url(./media/handcard.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position:bottom right;
+    padding:100px 50px !important;
 }
 .sec1 h1{
     font-family: "DM Serif Display", serif;
@@ -91,4 +99,14 @@ nav li a{
         flex-direction: column;
         gap: 0px !important;
     }
+     nav .navList{
+        display: none !important;
+    }
+    .createAcc{
+        display: none !important;
+    }
+    .sec1{
+        background-image: none;
+    }
+    
 }
