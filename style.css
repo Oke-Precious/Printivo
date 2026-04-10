@@ -82,7 +82,7 @@ nav p{
 .sec2{
     padding: 50px 70px !important;
 }
-.sec2 h2{
+.secTitle{
     color: #384A62;
     font-family: "DM Serif Display", serif;
     font-size: 30px;
@@ -117,6 +117,27 @@ nav p{
 }
 .companyLogos img{
     width: 100%;
+}
+.sec3{
+    padding: 50px !important;
+    background-color: #EDF6FD;
+}
+.reviewCon{
+    background-color: white;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+}
+.reviewCon button{
+    height: 33px;
+    width: 33px;
+    border: solid 1px rgb(231, 231, 231);
+}
+.reviewName{
+    font-weight: 500;
+}
+.reviewName a{
+    color: #1DA1F2;
+    text-decoration: none;
 }
 
 @media (max-width:768px) {
