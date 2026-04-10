@@ -182,6 +182,21 @@ nav p{
 .sec6{
     background-color: #384A62;
     padding:70px !important;
+    color: white;
+}
+.sec6 a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.sec6 header{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ECE8D9;
+}
+.sec6 ul{
+    font-weight: 500;
+    line-height: 28px;
 }
 
 
