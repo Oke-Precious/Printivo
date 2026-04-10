@@ -5,14 +5,14 @@
     font-family: "Poppins", sans-serif;
     /* outline: solid 1px red; */
 }
-header{
+.header{
     background-color: #F7F6F4 !important;
 
 }
-header li{
+.header li{
     font-size: 14px;
 }
-header li a{
+.header li a{
     color: black;
     text-decoration: none;
 }
@@ -119,7 +119,7 @@ nav p{
     width: 100%;
 }
 .sec3{
-    padding: 50px !important;
+    padding: 50px 70px !important;
     background-color: #EDF6FD;
 }
 .reviewCon{
@@ -127,24 +127,48 @@ nav p{
     padding: 20px !important;
     margin: 20px 0 !important;
     width: 100%;
+    gap: 20px;
+    display: flex;
 }
 .reviewCon button{
-    height: 33px;
-    width: 33px;
+    height: 33px ;
+    padding: 10px !important;
+    align-items: center;
+    display: flex;
+    width: 33px ;
     border: solid 1px rgb(231, 231, 231);
 }
 .reviewName{
     font-weight: 500;
-    font-size: 14px;
-    /* margin-bottom: 20px !important; */
+    font-size: 14px !important;
+    margin-bottom: 15px !important;
 }
-.reviewName p{
-    font-size: 15px;
+.reviewCon .reviewP{
+    font-size: 15px !important;
 }
 .reviewCon a{
     color: #1DA1F2;
     text-decoration: none;
 }
+.sec4 header{
+    font-size: 15px;
+    font-weight: 500;
+}
+.sec4 p{
+    font-size: 15.5px;
+    color: #677FAB;
+}
+.sec4{
+    padding:70px !important;
+}
+.sec4 .contentCon{
+    width: 25%;
+    /* width: 100%; */
+}
+.contentCon img{
+    width: 70px ;
+}
+
 
 @media (max-width:768px) {
     header .costCal{
@@ -198,6 +222,14 @@ nav p{
     .sec3{
         padding: 20px !important;
     }
+    .sec4{
+        padding:70px 20px !important;
+    }
+    .sec4 .contentCon{
+        width: 80%;
+        margin: 30px 0 !important;
+    }
+   
     
 }
 @media (max-width:475px){
