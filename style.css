@@ -179,6 +179,7 @@ nav p{
     font-size: 14px;
     display: block;
 }
+
 .sec6{
     background-color: #384A62;
     padding:70px !important;
@@ -191,7 +192,7 @@ nav p{
 }
 .sec6 header{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #ECE8D9;
 }
 .sec6 ul{
@@ -270,6 +271,12 @@ nav p{
     }
     .readArticleCon{
         margin: 40px 0 !important;
+    }
+    .sec6{
+        padding: 50px 20px !important;
+    }
+    .sec6 ul{
+        margin: 30px 0 !important;
     }
    
     
