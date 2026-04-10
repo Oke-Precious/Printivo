@@ -118,6 +118,10 @@ nav p{
 .companyLogos img{
     width: 100%;
 }
+.seeProduct{
+    color: #E09181;
+    font-weight: 500;
+}
 .sec3{
     padding: 50px 70px !important;
     background-color: #EDF6FD;
@@ -208,7 +212,17 @@ footer{
 footer p{
     font-size: 16px I !important;
 }
-
+.sendMessage{
+    color: white;
+    background-color: #F7279E;
+    font-weight: 500;
+    border: none;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    font-size: 16px;
+    left: 1%;
+}
 
 
 @media (max-width:768px) {
