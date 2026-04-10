@@ -106,10 +106,12 @@ nav p{
 .popularProduct {
     margin-bottom: 100px !important;
 }
-
-/* .cardConatiner{
-    width: ;
-} */
+.nigeriaNo p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #506683;
+    margin: 10px 0 !important;
+}
 
 
 @media (max-width:768px) {
