@@ -304,8 +304,9 @@ footer p{
     }
     
 }
-@media (max-width:475px){
-    .card{
+@media (max-width:500px){
+    .cardConatiner{
         width: 100% !important;
+        margin: 30px 0 !important;
     }
 }
