@@ -199,8 +199,15 @@ nav p{
     font-weight: 500;
     line-height: 28px;
 }
-
-
+footer{
+    background-color: #CBCAC8;
+    padding: 30px 70px !important;
+    color: #384A62;
+    text-align: center;
+}
+footer p{
+    font-size: 16px I !important;
+}
 
 
 
@@ -278,7 +285,9 @@ nav p{
     .sec6 ul{
         margin: 30px 0 !important;
     }
-   
+    footer{
+        padding:30px 20px !important;
+    }
     
 }
 @media (max-width:475px){
