@@ -106,13 +106,18 @@ nav p{
 .popularProduct {
     margin-bottom: 100px !important;
 }
+.nigeriaNo{
+    width: 50%;
+}
 .nigeriaNo p{
     font-size: 20px;
     font-weight: 600;
     color: #506683;
     margin: 10px 0 !important;
 }
-
+.companyLogos img{
+    width: 100%;
+}
 
 @media (max-width:768px) {
     header .costCal{
@@ -135,7 +140,10 @@ nav p{
         flex-direction: column;
         gap: 0px !important;
     }
-     nav .navList{
+    .navbar{
+        padding:10px 20px !important;
+    }
+    nav .navList{
         display: none !important;
     }
     .createAcc{
@@ -151,6 +159,19 @@ nav p{
     .sec1 .menuBtn{
     display: block;
     }
-
+    .sec2{
+        padding:50px 20px !important;
+    }
+    .nigeriaNo{
+    width: 100%;
+    }
+    .nigeriaNo p{
+        font-size: 16px;
+    }
     
+}
+@media (max-width:475px){
+    .card{
+        width: 100% !important;
+    }
 }
