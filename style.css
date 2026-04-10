@@ -168,6 +168,20 @@ nav p{
 .contentCon img{
     width: 70px ;
 }
+.sec5{
+    padding:70px !important;
+    background-color: #F7F6F4;
+}
+
+.readArticleCon a{
+    color: #384A62;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+}
+
+
+
 
 
 @media (max-width:768px) {
@@ -228,6 +242,12 @@ nav p{
     .sec4 .contentCon{
         width: 80%;
         margin: 30px 0 !important;
+    }
+    .sec5{
+        padding: 70px 20px !important;
+    }
+    .readArticleCon{
+        margin: 40px 0 !important;
     }
    
     
