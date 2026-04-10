@@ -113,7 +113,7 @@ nav p{
     font-size: 20px;
     font-weight: 600;
     color: #506683;
-    margin: 10px 0 !important;
+    margin-bottom: 10px !important;
 }
 .companyLogos img{
     width: 100%;
@@ -126,6 +126,7 @@ nav p{
     background-color: white;
     padding: 20px !important;
     margin: 20px 0 !important;
+    width: 100%;
 }
 .reviewCon button{
     height: 33px;
@@ -134,8 +135,13 @@ nav p{
 }
 .reviewName{
     font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px !important;
 }
-.reviewName a{
+.reviewName p{
+    font-size: 15px;
+}
+.reviewCon a{
     color: #1DA1F2;
     text-decoration: none;
 }
@@ -188,6 +194,9 @@ nav p{
     }
     .nigeriaNo p{
         font-size: 16px;
+    }
+    .sec3{
+        padding: 20px !important;
     }
     
 }
